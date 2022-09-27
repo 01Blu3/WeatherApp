@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "request": "^2.88.0"
+  },
+  "name": "web-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^1.2.0"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/01Blu3/node3-weatherSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/01Blu3/node3-weatherSite/issues"
+  },
+  "homepage": "https://github.com/01Blu3/node3-weatherSite#readme",
+  "description": ""
+}
